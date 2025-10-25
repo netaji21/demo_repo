@@ -116,7 +116,7 @@ git add file1.txt
 git commit -m "Updated locally"
 ```
 
----
+
 
 ### **Step 10: Push Again**
 
@@ -124,35 +124,5 @@ git commit -m "Updated locally"
 git push
 ```
 
----
 
-### **Step 11: If You Modify Again in GitHub**
 
-Before pushing new local changes, always do:
-
-```bash
-git pull
-```
-
-Then after changes:
-
-```bash
-git push
-```
-
----
-
-## 🧠 Summary
-
-| Action           | Command                            |
-| ---------------- | ---------------------------------- |
-| Initialize Repo  | `git init`                         |
-| Add File         | `git add filename`                 |
-| Commit Changes   | `git commit -m "message"`          |
-| Connect Remote   | `git remote add origin <repo-url>` |
-| Push to GitHub   | `git push -u origin master`        |
-| Pull from GitHub | `git pull`                         |
-
----
-
-Would you like me to give you the **exact commands to copy-paste** (with your GitHub username and repo name) so you can run them directly in PowerShell?
