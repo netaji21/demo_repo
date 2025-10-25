@@ -1,42 +1,28 @@
-Perfect 👍 Let’s go step by step so you can **do all these Git + GitHub operations using PowerShell** easily.
-
----
-
-## 🧩 **Goal**
+Goal
 
 We’ll go from creating a local file → connecting to GitHub → pushing and pulling changes both ways.
 
----
 
-## 🪟 **Step-by-Step Guide (PowerShell + GitHub)**
+Step-by-Step Guide (PowerShell + GitHub)
 
----
-
-### **Step 1: Create a local folder and file**
+Step 1: Create a local folder and file
 
 Open **PowerShell** and type:
 
-```bash
 cd Desktop       # or any folder you prefer
 mkdir demo_repo
 cd demo_repo
-```
+
 
 Now create a file:
 
-```bash
 echo "Hello GitHub" > file1.txt
-```
 
----
-
-### **Step 2: Initialize Git**
+Step 2: Initialize Git
 
 Inside `demo_repo`:
-
-```bash
 git init
-```
+
 
 ---
 
@@ -123,6 +109,7 @@ git commit -m "Updated locally"
 ```bash
 git push
 ```
+
 
 
 
